@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="system-ui,Segoe UI,Roboto,sans-serif">
+<rect width="800" height="500" fill="#1a1426"/>
+<rect x="60" y="50" width="680" height="480" rx="18" fill="#fbf7f2"/>
+<rect x="60" y="50" width="680" height="40" rx="18" fill="#efe8df"/><g fill="#d4c8bb"><circle cx="86" cy="70" r="6"/><circle cx="106" cy="70" r="6"/><circle cx="126" cy="70" r="6"/></g>
+<rect x="300" y="60" width="200" height="20" rx="10" fill="#fbf7f2"/>
+<text x="96" y="130" fill="#2b2233" font-size="13" font-weight="600" letter-spacing="2">STRETCH · ЛОФТ</text>
+<g fill="#5d5870" font-size="13"><text x="520" y="130">Расписание</text><text x="610" y="130">Цены</text><text x="670" y="130">Контакты</text></g>
+<text x="96" y="200" fill="#2b2233" font-size="42" font-weight="800">Растяжка, после</text><text x="96" y="248" fill="#2b2233" font-size="42" font-weight="800">которой <tspan fill="#8a5cf6">не болит</tspan></text><text x="96" y="248" fill="#2b2233" font-size="42" font-weight="800" dx="0"> </text>
+<text x="96" y="286" fill="#6d6378" font-size="16">Группы до 8 человек. Первое занятие бесплатно.</text>
+<rect x="96" y="310" width="220" height="52" rx="26" fill="#8a5cf6"/><text x="206" y="342" fill="#fff" font-size="16" font-weight="600" text-anchor="middle">Записаться на пробное</text>
+<circle cx="600" cy="300" r="120" fill="#efe1ff"/><path d="M560 380c10-60 30-90 45-120 10-20 30-30 50-40" stroke="#8a5cf6" stroke-width="16" stroke-linecap="round" fill="none"/><circle cx="660" cy="214" r="18" fill="#8a5cf6"/>
+<g font-size="13" fill="#2b2233"><rect x="96" y="392" width="140" height="70" rx="14" fill="#f2ebe3"/><text x="112" y="420" font-weight="600">Пн · 19:00</text><text x="112" y="444" fill="#6d6378">Шпагат</text><rect x="248" y="392" width="140" height="70" rx="14" fill="#f2ebe3"/><text x="264" y="420" font-weight="600">Ср · 20:00</text><text x="264" y="444" fill="#6d6378">Спина</text><rect x="400" y="392" width="140" height="70" rx="14" fill="#f2ebe3"/><text x="416" y="420" font-weight="600">Сб · 11:00</text><text x="416" y="444" fill="#6d6378">Новичкам</text></g>
+</svg>

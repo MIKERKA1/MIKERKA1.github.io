@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Денис · разработчик сайтов и Telegram-ботов</title>
+  <meta name="description" content="Делаю сайты и Telegram-ботов: лендинги, многостраничные сайты, магазины и запись клиентов в Telegram. Пишите в Telegram: @mikerrka." />
+  <link rel="canonical" href="%VITE_SITE_URL%/" />
+  <meta name="theme-color" content="#0c0b12" />
+  <link rel="preconnect" href="%VITE_SUPABASE_URL%" crossorigin />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:title" content="Денис · разработчик сайтов и Telegram-ботов" />
+  <meta property="og:description" content="Лендинги, сайты, магазины и боты для записи клиентов. Напишите в Telegram, обсудим задачу." />
+  <meta property="og:url" content="%VITE_SITE_URL%/" />
+  <meta property="og:image" content="%VITE_SITE_URL%/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Денис",
+      "jobTitle": "Разработчик сайтов и Telegram-ботов",
+      "url": "%VITE_SITE_URL%/",
+      "email": "mailto:jkak527@gmail.com",
+      "sameAs": ["https://t.me/mikerrka", "https://github.com/MIKERKA1"]
+    }
+  </script>
+
+  <script>
+    // До первой отрисовки: тема, язык и режим анимаций, чтобы не было мигания.
+    (function () {
+      var d = document.documentElement, t = null, l = null;
+      try { t = localStorage.getItem('theme'); l = localStorage.getItem('lang'); } catch (e) {}
+      var q = new URLSearchParams(location.search).get('lang');
+      d.dataset.theme = t || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      d.lang = q === 'en' || q === 'ru' ? q : l || (navigator.language.slice(0, 2) === 'ru' ? 'ru' : 'en');
+      if (!matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('motion');
+      // Если скрипт не загрузился, не оставляем контент невидимым.
+      setTimeout(function () { if (!window.__ready) d.classList.remove('motion'); }, 3000);
+    })();
+  </script>
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">К содержанию</a>
+
+  <header class="header">
+    <div class="wrap header-in">
+      <a class="logo" href="#top"><span aria-hidden="true"><span>Д</span>/</span><span class="sr" data-i18n="home">Денис, на главную</span></a>
+      <nav class="nav" aria-label="Разделы" data-i18n-attr="aria-label:navLabel">
+        <a href="#services" data-i18n="navServices">Услуги</a>
+        <a href="#projects" data-i18n="navProjects">Проекты</a>
+        <a href="#process" data-i18n="navProcess">Процесс</a>
+        <a href="#contact" data-i18n="navContact">Контакты</a>
+      </nav>
+      <div class="header-tools">
+        <button class="tool" id="lang-toggle" type="button" aria-label="EN — switch to English" data-i18n-attr="aria-label:langLabel"><span data-i18n="langShort">EN</span></button>
+        <button class="tool" id="theme-toggle" type="button" aria-label="Сменить тему" data-i18n-attr="aria-label:themeLabel">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        </button>
+        <a class="btn btn-sm" href="https://t.me/mikerrka" target="_blank" rel="noopener">Telegram ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="wrap">
+        <p class="status hero-fade">
+          <span class="dot" aria-hidden="true"></span>
+          <span data-i18n="status">Беру новые проекты</span>
+          <span class="status-sep" aria-hidden="true">·</span>
+          <span><span data-i18n="city">Москва</span>, <time id="clock">--:--</time></span>
+          <span class="clock-eu"><span aria-hidden="true">·</span> Berlin, <time id="clock-eu">--:--</time></span>
+        </p>
+        <h1 class="hero-title">
+          <span class="hero-name" data-i18n="name">Денис</span>
+          <span class="hero-age hero-fade" data-i18n="age">19 лет</span>
+        </h1>
+        <p class="hero-role hero-fade">
+          <span data-i18n="role1">Разработчик сайтов</span><br />
+          <span data-i18n="role2">и</span>
+          <span class="underline-wrap"><span data-i18n="role3">Telegram-ботов</span><svg class="underline" viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true"><path d="M3 11C60 4 120 3 180 6s90 6 117 1" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg></span>
+        </p>
+        <p class="hero-lede hero-fade" data-i18n="lede">Делаю сайты, которые быстро открываются и приводят заявки, и ботов, которые сами принимают заказы и записывают клиентов. Расскажите задачу: предложу решение и назову срок.</p>
+        <div class="hero-cta hero-fade">
+          <a class="btn btn-primary" href="https://t.me/mikerrka" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M21.5 4.3 18.4 19c-.2 1-.9 1.3-1.7.8l-4.7-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.8 8.8-8c.4-.3-.1-.5-.6-.2L6.3 12.9 1.6 11.4c-1-.3-1-1 .2-1.5L20.2 3c.9-.3 1.6.2 1.3 1.3Z" fill="currentColor"/></svg>
+            <span data-i18n="ctaTg">Написать в Telegram</span>
+          </a>
+          <a class="btn btn-ghost" href="#projects" data-i18n="ctaWork">Посмотреть проекты</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section class="section" id="about" aria-labelledby="about-h">
+      <div class="wrap grid-2">
+        <p class="label reveal"><span>[01]</span> <span data-i18n="aboutLabel">Обо мне</span></p>
+        <div>
+          <h2 class="h2 reveal" id="about-h" data-i18n="aboutTitle">Пишу код сам и отвечаю за результат сам</h2>
+          <div class="about-text reveal">
+            <p data-i18n="about1">Мне 19, я делаю сайты и Telegram-ботов. Работаю напрямую, без менеджеров: вы пишете мне, и код тоже пишу я. Поэтому вопросы решаются быстро, без цепочки пересылок.</p>
+            <p data-i18n="about2">Мне важно, чтобы сайт открывался быстро даже на слабом телефоне, а бот понимал человека с первого сообщения. Если задачу можно решить проще и дешевле, скажу об этом до начала работы.</p>
+          </div>
+          <ul class="facts reveal">
+            <li><b data-i18n="fact1a">Напрямую</b><span data-i18n="fact1b">общаетесь с тем, кто делает</span></li>
+            <li><b data-i18n="fact2a">Срок и цена</b><span data-i18n="fact2b">фиксируем до старта</span></li>
+            <li><b data-i18n="fact3a">Код и доступы</b><span data-i18n="fact3b">остаются у вас</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="section" id="services" aria-labelledby="services-h">
+      <div class="wrap">
+        <p class="label reveal"><span>[02]</span> <span data-i18n="servicesLabel">Услуги</span></p>
+        <h2 class="h2 reveal" id="services-h" data-i18n="servicesTitle">Что я делаю</h2>
+        <div class="services">
+          <article class="service reveal">
+            <svg class="service-icon draw" viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="10" width="52" height="40" rx="5"/><path d="M6 20h52M13 15h.01M19 15h.01M25 15h.01M16 30h20M16 38h32M44 30h4"/></svg>
+            <h3 class="h3" data-i18n="svcSitesTitle">Сайты</h3>
+            <p class="muted" data-i18n="svcSitesText">Лендинги, многостраничные сайты и веб-приложения.</p>
+            <ul class="ticks">
+              <li data-i18n="svcSites1">Лендинг под рекламу или запуск продукта</li>
+              <li data-i18n="svcSites2">Сайт компании на несколько страниц</li>
+              <li data-i18n="svcSites3">Каталог, личный кабинет, админка для контента</li>
+              <li data-i18n="svcSites4">Формы, оплата, аналитика, заявки в Telegram</li>
+              <li data-i18n="svcSites5">Адаптив под телефоны и базовое SEO</li>
+            </ul>
+            <a class="link-arrow" href="https://t.me/mikerrka" target="_blank" rel="noopener" data-i18n="svcSitesCta">Обсудить сайт →</a>
+          </article>
+          <article class="service reveal">
+            <svg class="service-icon draw" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 14h44a4 4 0 0 1 4 4v24a4 4 0 0 1-4 4H26l-10 8v-8h-6a4 4 0 0 1-4-4V18a4 4 0 0 1 4-4Z"/><path d="M18 26h28M18 34h18"/></svg>
+            <h3 class="h3" data-i18n="svcBotsTitle">Telegram-боты</h3>
+            <p class="muted" data-i18n="svcBotsText">Боты, которые берут на себя рутину: заказы, запись, уведомления.</p>
+            <ul class="ticks">
+              <li data-i18n="svcBots1">Магазин с каталогом, корзиной и оплатой</li>
+              <li data-i18n="svcBots2">Запись клиентов и напоминания о визите</li>
+              <li data-i18n="svcBots3">Уведомления о заказах и заявках с сайта</li>
+              <li data-i18n="svcBots4">Интеграции: Google Таблицы, CRM, любые API</li>
+              <li data-i18n="svcBots5">Mini App и админка прямо в Telegram</li>
+            </ul>
+            <a class="link-arrow" href="https://t.me/mikerrka" target="_blank" rel="noopener" data-i18n="svcBotsCta">Обсудить бота →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Проекты -->
+    <section class="section" id="projects" aria-labelledby="projects-h">
+      <div class="wrap">
+        <p class="label reveal"><span>[03]</span> <span data-i18n="projectsLabel">Проекты</span></p>
+        <div class="projects-head">
+          <h2 class="h2 reveal" id="projects-h" data-i18n="projectsTitle">Что уже сделано</h2>
+          <div class="projects-tools">
+            <div class="filter" role="group" aria-label="Фильтр по типу" data-i18n-attr="aria-label:filterLabel">
+              <button type="button" data-filter="all" aria-pressed="true" data-i18n="filterAll">Все</button>
+              <button type="button" data-filter="site" aria-pressed="false" data-i18n="filterSites">Сайты</button>
+              <button type="button" data-filter="bot" aria-pressed="false" data-i18n="filterBots">Боты</button>
+            </div>
+            <button class="btn btn-primary btn-sm admin-only" id="add-project" type="button" data-i18n="addProject">+ Добавить проект</button>
+          </div>
+        </div>
+        <div class="grid" id="project-grid" aria-live="polite"></div>
+        <p class="grid-note" id="grid-note" hidden></p>
+      </div>
+    </section>
+
+    <!-- Стек -->
+    <section class="section" id="stack" aria-labelledby="stack-h">
+      <div class="wrap">
+        <p class="label reveal"><span>[04]</span> <span data-i18n="stackLabel">Стек</span></p>
+        <h2 class="h2 reveal" id="stack-h" data-i18n="stackTitle">Чем пользуюсь</h2>
+        <div class="stack-groups">
+          <div class="stack-group reveal">
+            <h3 class="mono-h" data-i18n="stackFront">Фронтенд</h3>
+            <ul class="chips"><li>HTML / CSS</li><li>JavaScript</li><li>TypeScript</li><li>React</li><li>Astro</li><li>Vite</li></ul>
+          </div>
+          <div class="stack-group reveal">
+            <h3 class="mono-h" data-i18n="stackBack">Бэкенд и данные</h3>
+            <ul class="chips"><li>Node.js</li><li>Python</li><li>PostgreSQL</li><li>Supabase</li><li>REST API</li></ul>
+          </div>
+          <div class="stack-group reveal">
+            <h3 class="mono-h" data-i18n="stackBots">Боты</h3>
+            <ul class="chips"><li>Telegram Bot API</li><li>aiogram</li><li>grammY</li><li>Mini Apps</li><li>Telegram Payments</li></ul>
+          </div>
+          <div class="stack-group reveal">
+            <h3 class="mono-h" data-i18n="stackTools">Анимация и инструменты</h3>
+            <ul class="chips"><li>anime.js</li><li>Motion</li><li>Git</li><li>Figma</li><li>Cloudflare</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Процесс -->
+    <section class="section" id="process" aria-labelledby="process-h">
+      <div class="wrap">
+        <p class="label reveal"><span>[05]</span> <span data-i18n="processLabel">Процесс</span></p>
+        <h2 class="h2 reveal" id="process-h" data-i18n="processTitle">Как я работаю</h2>
+        <ol class="steps">
+          <li class="step">
+            <svg class="step-icon draw" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20"/><path d="M15 25l6 6 12-13"/></svg>
+            <span class="step-num">01</span>
+            <h3 class="h3" data-i18n="step1t">Заявка</h3>
+            <p class="muted" data-i18n="step1">Пишете в Telegram, что нужно. Задам пару вопросов, чтобы понять задачу, а не продать лишнее.</p>
+          </li>
+          <li class="step">
+            <svg class="step-icon draw" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20"/><path d="M24 13v11l7 5"/></svg>
+            <span class="step-num">02</span>
+            <h3 class="h3" data-i18n="step2t">Оценка</h3>
+            <p class="muted" data-i18n="step2">Называю срок и цену, записываем, что входит в работу. Без сюрпризов в конце.</p>
+          </li>
+          <li class="step">
+            <svg class="step-icon draw" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20"/><path d="M18 17l-7 7 7 7M30 17l7 7-7 7"/></svg>
+            <span class="step-num">03</span>
+            <h3 class="h3" data-i18n="step3t">Разработка</h3>
+            <p class="muted" data-i18n="step3">Показываю промежуточные версии, вы смотрите живой результат и вносите правки по ходу.</p>
+          </li>
+          <li class="step">
+            <svg class="step-icon draw" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20"/><path d="M24 33V15M16 22l8-8 8 8"/></svg>
+            <span class="step-num">04</span>
+            <h3 class="h3" data-i18n="step4t">Запуск</h3>
+            <p class="muted" data-i18n="step4">Выкладываю, подключаю домен, передаю доступы. Если после запуска что-то всплывёт, поправлю.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="section contact" id="contact" aria-labelledby="contact-h">
+      <div class="wrap">
+        <p class="label reveal"><span>[06]</span> <span data-i18n="contactLabel">Контакты</span></p>
+        <h2 class="contact-title reveal" id="contact-h" data-i18n="contactTitle">Есть задача? Напишите.</h2>
+        <p class="muted contact-sub reveal" data-i18n="contactSub">Быстрее всего ответ придёт в Telegram. Можно сразу описать задачу, ссылку на пример или просто «хочу сайт».</p>
+        <ul class="contacts reveal">
+          <li><a class="contact-link contact-main" href="https://t.me/mikerrka" target="_blank" rel="noopener"><span class="mono-h">Telegram</span><span>@mikerrka ↗</span></a></li>
+          <li><a class="contact-link" href="mailto:jkak527@gmail.com"><span class="mono-h" data-i18n="mail">Почта</span><span>jkak527@gmail.com</span></a></li>
+          <li><a class="contact-link" href="https://github.com/MIKERKA1" target="_blank" rel="noopener"><span class="mono-h">GitHub</span><span>github.com/MIKERKA1 ↗</span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-in">
+      <span>© 2026 <span data-i18n="name">Денис</span></span>
+      <span class="muted" data-i18n="footerNote">Сайт собран на Vite, anime.js и Motion</span>
+      <button class="footer-btn" id="admin-btn" type="button" data-i18n="login">Войти</button>
+    </div>
+  </footer>
+
+  <template id="card-tpl">
+    <article class="card">
+      <div class="card-media"><img alt="" loading="lazy" decoding="async" width="800" height="500" /></div>
+      <div class="card-body">
+        <div class="card-meta"><span class="card-num"></span><span class="card-type"></span></div>
+        <h3 class="card-title"></h3>
+        <p class="card-desc"></p>
+        <ul class="card-stack"></ul>
+        <div class="card-links"></div>
+        <div class="card-admin admin-only">
+          <button type="button" class="footer-btn" data-act="edit" data-i18n="edit">Изменить</button>
+          <button type="button" class="footer-btn danger" data-act="delete" data-i18n="delete">Удалить</button>
+        </div>
+      </div>
+    </article>
+  </template>
+</body>
+</html>

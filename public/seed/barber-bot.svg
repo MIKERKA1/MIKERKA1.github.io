@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="system-ui,Segoe UI,Roboto,sans-serif">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1530"/><stop offset="1" stop-color="#0c0b12"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="640" cy="90" r="160" fill="#9b7fff" opacity=".12"/>
+<rect x="250" y="40" width="300" height="500" rx="36" fill="#15131d" stroke="#2a2638" stroke-width="2"/>
+<rect x="250" y="40" width="300" height="64" rx="36" fill="#1d1a28"/><circle cx="292" cy="72" r="16" fill="#9b7fff"/>
+<text x="318" y="68" fill="#eeebf6" font-size="15" font-weight="600">Барбершоп · запись</text><text x="318" y="86" fill="#a39fb6" font-size="12">бот</text>
+<rect x="270" y="122" width="210" height="58" rx="14" fill="#1d1a28"/><text x="286" y="146" fill="#eeebf6" font-size="14">Привет! К кому записать?</text><text x="286" y="166" fill="#a39fb6" font-size="12">Выберите мастера</text>
+<g font-size="14" fill="#eeebf6" text-anchor="middle"><rect x="270" y="192" width="125" height="40" rx="10" fill="#2a2342" stroke="#9b7fff"/><text x="332" y="217">Артём</text><rect x="405" y="192" width="125" height="40" rx="10" fill="#2a2342"/><text x="467" y="217">Илья</text></g>
+<rect x="380" y="250" width="150" height="40" rx="14" fill="#9b7fff"/><text x="455" y="275" fill="#0c0b12" font-size="14" font-weight="600" text-anchor="middle">Артём, стрижка</text>
+<rect x="270" y="304" width="230" height="40" rx="14" fill="#1d1a28"/><text x="286" y="329" fill="#eeebf6" font-size="14">Свободно в пятницу:</text>
+<g font-size="13" fill="#eeebf6" text-anchor="middle"><rect x="270" y="354" width="80" height="36" rx="10" fill="#2a2342"/><text x="310" y="377">12:00</text><rect x="360" y="354" width="80" height="36" rx="10" fill="#2a2342"/><text x="400" y="377">15:30</text><rect x="450" y="354" width="80" height="36" rx="10" fill="#c8f560"/><text x="490" y="377" fill="#0c0b12" font-weight="600">18:00</text></g>
+<rect x="270" y="404" width="240" height="40" rx="14" fill="#1d1a28"/><text x="286" y="429" fill="#c8f560" font-size="14">✓ Записал. Напомню за 2 часа</text>
+</svg>

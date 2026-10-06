@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-06T14:17:05.199Z",
+        "reason": "Claude: img lives inside <template id=card-tpl>, src is set by projects.js at render time"
+      }
+    ]
+  }
+}
